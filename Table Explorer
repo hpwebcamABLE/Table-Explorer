@@ -26,13 +26,16 @@ pastebin get LkzPw4G5 installer
 Then run 'installer'
 
 
-==== Use ====
-Load it like an api and call te.viewTable( <table name> )
+==== How to Use ====
+In a program:
+Call 'shell.run("te api")'
+Then call 'te.explore( <table> Table to explore , <string> Name of table)
 
-Or run it like a program with the name of a table in the global environment as an argument
+In the shell:
+Run the command 'te explore <table>'
 
 ==== Update History ====
-Pastebin will always have the most recent version
+Github will always have the most recent version
 
 |1.0|
 -Release
