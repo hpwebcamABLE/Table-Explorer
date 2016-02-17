@@ -910,6 +910,8 @@ local function create()
     },
     nil,true)
     
+    if choice == 5 then return end
+    
     local name = getInput(" Enter variable name ",nil)
     while name~="" and curSubTable[name] do
       name = getInput(" That variable exists ",name)
